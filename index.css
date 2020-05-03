@@ -114,7 +114,8 @@ header > .navbar > ul > li:hover {
 
 #home > p {
   text-align: center;
-  font-size: 5rem;
+  /* font-size: 5rem; */
+  font-size: 5em;
   color: rgb(0, 0, 146);
 }
 
@@ -123,7 +124,8 @@ header > .navbar > ul > li:hover {
 #careers > h2,
 #contactus > h2 {
   text-align: center;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 2em;
   color: rgb(0, 0, 146);
 }
 
