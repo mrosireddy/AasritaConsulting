@@ -1,5 +1,5 @@
 # Tooling files
 node_modules
 
-/ac_ssh
-/ac_ssh.pub
+ac_ssh
+ac_ssh.pub

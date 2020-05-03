@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
@@ -114,8 +115,8 @@ header > .navbar > ul > li:hover {
 
 #home > p {
   text-align: center;
-  /* font-size: 5rem; */
-  font-size: 5em;
+  font-size: 5rem;
+  /* font-size: 5em; */
   color: rgb(0, 0, 146);
 }
 
