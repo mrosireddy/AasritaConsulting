@@ -35,10 +35,15 @@ let positions = [
   {
     title: "Angular Developer",
     postingDate: "05/02/2020",
-    location: "Parisppany, NJ",
+    location: "Parsippany, NJ",
     description: "Java programmng skills with Angular UI experience",
     responsibilities: [
       "The candidate will require the HTML/CSS/JavaScript, Angular UI/Angular 2 programming skills.",
+      "Developing product analysis tasks.",
+      "Consulting with the design team.",
+      "Ensuring high performance of applications and providing support.",
+      "Adapting interface for modern internet applications using the latest front-end technologies.",
+      "Critical thinker and good problem-solver.",
     ],
   },
 ];

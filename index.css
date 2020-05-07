@@ -85,7 +85,7 @@ header > .navbar > ul > li:hover {
   /* text-align: center; */
   width: auto;
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 75px;
   font-family: Verdana, Geneva, sans-serif;
   /* For CSS smooth scroll */
   scroll-snap-align: center;
@@ -128,6 +128,7 @@ header > .navbar > ul > li:hover {
   /* font-size: 2rem; */
   font-size: 2em;
   color: rgb(0, 0, 146);
+  margin: 0;
 }
 
 #about > dl {
@@ -140,6 +141,11 @@ header > .navbar > ul > li:hover {
   font-size: 2rem;
   padding-top: 55px;
   font-weight: bold;
+}
+
+#about > dl > dd,
+#about > dl > dd > ol > li {
+  font-size: 15px;
 }
 
 #services > .servicelist {
@@ -167,6 +173,7 @@ header > .navbar > ul > li:hover {
   font-size: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2),
     0 6px 20px 0 rgba(0, 255, 0, 0.19);
+  cursor: default;
 }
 
 #careers > .container {
@@ -191,6 +198,7 @@ header > .navbar > ul > li:hover {
 #careers > .container > #pos_list > div:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2),
     0 6px 20px 0 rgba(0, 255, 0, 0.19);
+  cursor: pointer;
 }
 
 #careers > .container > .description {
@@ -210,6 +218,7 @@ header > .navbar > ul > li:hover {
 
 #careers > .container > .description > dl > dd {
   color: rgb(0, 0, 146);
+  font-size: 15px;
 }
 
 #contactus > p {
@@ -221,7 +230,7 @@ header > .navbar > ul > li:hover {
 #contactus > iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2),
     0 6px 20px 0 rgba(0, 255, 0, 0.19);
-  margin: 10px;
+  margin: 5px 20px;
 }
 
 #contactus > .contact_cont {
@@ -230,18 +239,11 @@ header > .navbar > ul > li:hover {
   align-content: center;
 }
 
-#contactus > .contact_cont > div {
-  /* background-color: lightpink; */
-  margin: 20px;
-  text-align: center;
-  font-size: 2rem;
-  color: rgb(0, 0, 146);
-}
-
+#contactus > .contact_cont > div,
 #contactus > .contact_cont > .footer {
   /* background-color: lightpink; */
   margin: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 15px;
   color: rgb(0, 0, 146);
 }
