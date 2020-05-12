@@ -219,14 +219,17 @@ header > .navbar > ul > li:hover {
   color: rgb(44, 143, 44);
   font-weight: bold;
   padding: 5px 0 0 0;
-  font-size: 1.2rem;
+  font-size: 2.2vh;
 }
 
 #careers > .container > .description > dl > dd,
-#careers > .container > .description > dl > dd > ul {
+#careers > .container > .description > dl > dd > ul > li {
   color: rgb(0, 0, 146);
-  font-size: 1rem;
-  margin-top: 0;
+  font-size: 2.0vh;
+}
+
+#careers > .container > .description > dl > dd > ul{
+  margin-top: 0;;
 }
 
 #contactus > p {
