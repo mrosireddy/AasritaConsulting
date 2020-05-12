@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  /* font-size: 14px; */
-  font-size: 2.2vh;
+  font-size: 16px;
 }
 
 body {
@@ -21,33 +20,27 @@ header {
   position: fixed;
   width: 100%;
   z-index: 3;
-  margin: auto;
-  /* background-color: lightcyan; */
 }
 
 header div {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* background-color: rgb(142, 184, 180); */
   color: rgb(150, 19, 19);
+  /* border-radius: 4px; 
+  border: 2px solid black; */
 }
 
 header .logo {
-  width: 30%;
+  width: 20%;
   float: left;
-  /* background-color: lightgreen; */
-}
-
-header .logo img {
-  height: 9vh;
-  /* background-color: lightyellow; */
+  padding: 5px 0;
 }
 
 header .navbar {
-  width: 70%;
-  height: 9vh;
+  width: 80%;
   float: left;
-  /* background-color: lightpink; */
 }
 
 header > .navbar > ul {
@@ -59,11 +52,11 @@ header > .navbar > ul {
 
 header > .navbar > ul > li {
   display: inline;
-  padding: 1vh 0;
+  padding: 5px 0;
   /* background-color: black;*/
   background-color: rgb(0, 0, 146);
   color: white;
-  border-radius: 1vh;
+  border-radius: 4px;
   margin: 0 1rem;
   /* padding: 0.5rem;*/
   font-size: 1.2em;
@@ -72,7 +65,7 @@ header > .navbar > ul > li {
 ul li a {
   text-decoration: none;
   color: inherit;
-  padding: 1vh 4vh;
+  padding: 5px 20px;
   /* padding: 0.5rem 2rem; */
   /* background-color: red; */
 }
@@ -92,8 +85,7 @@ header > .navbar > ul > li:hover {
   /* text-align: center; */
   width: auto;
   height: 100vh;
-  /* padding-top: 75px; */
-  padding-top: 9vh;
+  padding-top: 75px;
   font-family: Verdana, Geneva, sans-serif;
   /* For CSS smooth scroll */
   scroll-snap-align: center;
@@ -105,9 +97,7 @@ header > .navbar > ul > li:hover {
 
 #home {
   background-image: url("images/ac_home_1.jpg");
-  /* background-size: 100% 100%; */
-  background-size: cover;
-  background-position: center bottom;
+  background-size: 100% 100%;
 }
 
 #about > img,
@@ -128,7 +118,6 @@ header > .navbar > ul > li:hover {
   font-size: 5rem;
   /* font-size: 5em; */
   color: rgb(0, 0, 146);
-  text-shadow: 2px 2px 4px #0f0, -2px -2px 4px #0f0;
 }
 
 #about > h2,
@@ -137,49 +126,54 @@ header > .navbar > ul > li:hover {
 #contactus > h2 {
   text-align: center;
   /* font-size: 2rem; */
-  font-size: 2rem;
+  font-size: 2em;
   color: rgb(0, 0, 146);
   margin: 0;
 }
 
 #about > dl {
   color: rgb(0, 0, 146);
-  padding: 0 25vw;
-  /* background-color: lightskyblue; */
+  padding: 0 30%;
 }
 
 #about > dl > dt {
   color: rgb(44, 143, 44);
-  font-size: 1.5rem;
-  padding-top: 10vh;
+  font-size: 2rem;
+  padding-top: 55px;
   font-weight: bold;
 }
 
 #about > dl > dd,
 #about > dl > dd > ol > li {
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 #services > .servicelist {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2rem;
   /* background-color: lightcyan; */
 }
 
 #services > .servicelist > .eachservice {
-  padding: 2.5rem 1rem;
-  margin: 1.8rem;
-  width: 20rem;
+  /* grid-area: servicearea; */
+  padding: 70px 5px;
+  margin: 25px;
+  /* background-color: lightpink; */
+  width: 300px;
   color: rgb(44, 143, 44);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+}
+
+#services > .servicelist > .eachservice:hover {
   border: 4px ridge rgb(0, 0, 146);
   border-radius: 8px;
+  font-size: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2),
     0 6px 20px 0 rgba(0, 255, 0, 0.19);
+  cursor: default;
 }
 
 #careers > .container {
@@ -222,26 +216,21 @@ header > .navbar > ul > li:hover {
   font-size: 1.2rem;
 }
 
-#careers > .container > .description > dl > dd,
-#careers > .container > .description > dl > dd > ul {
+#careers > .container > .description > dl > dd {
   color: rgb(0, 0, 146);
-  font-size: 1rem;
-  margin-top: 0;
+  font-size: 15px;
 }
 
 #contactus > p {
   margin: 0;
   padding: 0;
   color: rgb(0, 0, 146);
-  font-size: 1rem;
 }
 
 #contactus > iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2),
     0 6px 20px 0 rgba(0, 255, 0, 0.19);
   margin: 5px 20px;
-  width: 34rem;
-  height: 24rem;
 }
 
 #contactus > .contact_cont {
@@ -250,10 +239,11 @@ header > .navbar > ul > li:hover {
   align-content: center;
 }
 
-#contactus > .contact_cont > div {
+#contactus > .contact_cont > div,
+#contactus > .contact_cont > .footer {
   /* background-color: lightpink; */
   margin: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 15px;
   color: rgb(0, 0, 146);
 }
